@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Document</title>
+
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+ 
+ <style>
+      html,body { 
+            margin: 0;
+            height: 100%;
+      }            
+      #container{ 
+            display: flex;
+            height: 100%;
+            
+            background-color: white;
+      } 
+      .left-box{
+            flex-direction: column;
+            align-items: center;
+            width: 100px;
+            background-color: gray;
+      }
+      .main-container{
+            justify-content: center;
+            width: 100%;
+            
+            background-color: whitesmoke;
+      }
+      .header{
+            background-color: aqua;
+      }
+      .main-image{
+            height: 300px;
+      }
+      .nav{
+            display: flex;
+            justify-content: space-around;
+
+            height: 50px;
+
+            background-color: black;
+      }
+      i{
+            margin: 15px;
+            font-size: 30px;
+      }
+      button{
+            width: 100px;
+            height: 100%;
+
+            border: none;
+            color: white;
+            font-weight: 700;
+
+            background-color: rgba(0, 0, 0, 0);
+
+            cursor: pointer;
+      }
+      table{
+            border-top: 50px;
+            border-right: 50px;   
+      }
+      .tableheader{
+        width: 100%;
+
+      }
+ 
+      .tbh{
+        margin: 0 auto;
+      }
+
+ </style>                   
+
+</head>
+<body>
+      <div id="container">
+            <div class="left-box">
+                  <i class="fa-solid fa-house"></i>
+                  <i class="fa-solid fa-mug-hot"></i>
+                  <i class="fa-regular fa-image"></i>
+                  <i class="fa-brands fa-youtube"></i>
+                  <i class="fa-solid fa-headset"></i>
+            </div>
+            <div class="main-container">
+                  <div class="header">
+                        <div class="main-image"></div>
+                        <div class="nav">
+                              <button type="button">HOME</button>
+                              <button type="button">COFFEE</button>
+                              <button type="button">CF</button>
+                              <button type="button">PRINT</button>
+                              <button type="button">문의하기</button>
+                        </div>          
+                  </div>
+                  <div class="tableheader">
+                  <table class = "tbh">
+                        <caption><h3>제품 문의하기</h3></caption>
+                        <thead>
+                              <tr><th>아이디</th><th><input type="text"></th></tr>
+                              <tr><th>작성자</th><th><input type="text"></th></tr>
+                              <tr><th>이메일</th><th><input type="text"><th>@</th><th><input type="text"></th></tr>
+                              <tr><th>문의내용</th><th><input type="text"></th></th></tr>
+                        </thead>
+                  </table> 
+                </div>
+            </div>
+        </div>   
+</body>
+</html>
