@@ -11,7 +11,6 @@
  <link rel="stylesheet" href="images">
 </head>
 <body>
-	
 	<div id ="menu1">
 		<ul class ="main">
 			<li><h3><a href="#">WOMEN</a></h3>
@@ -112,15 +111,15 @@
 				</ul>
 				</div>
 			</li>
+      <div class ="headeri">
+        <a target="_blank" href="Login.jsp"><i class="fa-solid fa-arrow-right-to-bracket"></i></a>
+        <i class="fa-solid fa-user"></i> 
+        <i class="fa-solid fa-cart-shopping"></i>
+      </div>
 		</ul>
-		<div id ="headeri">
-			<a target="_blank" href="Login.jsp"><i class="fa-solid fa-arrow-right-to-bracket"></i></a>
-			<i class="fa-solid fa-user"></i> 
-			<i class="fa-solid fa-cart-shopping"></i>
-		</div>
 	</div> 
 	<hr>
-	<div class=Logindiv>
+	<div class="Logindiv">
 	<div class="LoginMain">
 		<h1 class="logo">Acidgram</h1>
 		<div class="container">

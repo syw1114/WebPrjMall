@@ -19,10 +19,9 @@ h3{
 i{
     margin: 2px 10px 0px 3px;
     font-size: 20px;
-    
 }
 
-#headeri{
+#menu1 .main .headeri{
     width: 100%;
     text-align: right;
 }
@@ -30,16 +29,15 @@ i{
 #menu1 {
 	width: 100%;
 	height : 50px;
-	
 }
 
 #menu1 ul{
-	width: 700px;
+	width: 100%;
 	position:relative;
 }
 #menu1 .main >li{
 	float : left;
-	width : 25%;
+	width : 10%;
 	height : 50%;
 	line-height : 50px;
 	text-align : center;
@@ -65,7 +63,7 @@ i{
 	position : absolute;
 	top: 50px;
 	left: 0;
-	width: 100%;
+	width: 50%;
 	display: none;
 	border-top: solid 1px gray;
 	z-index:200;

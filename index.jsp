@@ -111,12 +111,12 @@
 				</ul>
 				</div>
 			</li>
+      <div class ="headeri">
+        <a target="_blank" href="Login.jsp"><i class="fa-solid fa-arrow-right-to-bracket"></i></a>
+        <i class="fa-solid fa-user"></i> 
+        <i class="fa-solid fa-cart-shopping"></i>
+      </div>
 		</ul>
-		<div id ="headeri">
-			<a target="_blank" href="Login.jsp"><i class="fa-solid fa-arrow-right-to-bracket"></i></a>
-			<i class="fa-solid fa-user"></i> 
-			<i class="fa-solid fa-cart-shopping"></i>
-		</div>
 	</div> 
 	<hr>
 	<!-- 이미지 슬라이드 시작 -->
