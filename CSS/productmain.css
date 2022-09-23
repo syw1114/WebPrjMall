@@ -1,0 +1,41 @@
+
+        #container {
+            
+            display : flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 100px;
+        }
+
+        table { 
+            width : 400px;
+            height :400px;
+            font-size: medium;
+            }
+
+        input {
+            font-size: medium;
+        }
+
+
+        tfoot tr td {
+            text-align: end;
+
+        }
+
+        th, td {
+            border : 1px solid #141414;
+            border-radius: 5px;
+        }
+
+        input[type="text"],
+        input[type="number"]
+         {
+            box-sizing : border-box;
+            width :100%;
+            border : none;
+            outline : none;
+            text-align : center;
+
+        }
+    
