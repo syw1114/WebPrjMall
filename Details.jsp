@@ -10,7 +10,6 @@
 <link rel="stylesheet" href="CSS/Details.css">
 </head>
 <body>
- 
 	<div id ="menu1">
 		<ul class ="main">
 			<li><h3><a href="#">WOMEN</a></h3>
