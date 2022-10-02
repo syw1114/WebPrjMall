@@ -10,19 +10,22 @@
 </head>
 <body>
 	<div id="container">
-        <div class="right-side">
+        <div class="aaaa">
+            <div>
+              <h1 style="margin:20px 0 40px 40px">JP Studio</h1>
+            </div>
             <div class="right-menu">
                 <ul>
-                    <li>LOGIN</li>
+                    <li><a href="Login.html">LOGIN</a></li>
                     <li>REGISTER</li>
                     <li>MY ACCOUNT</li>
                     <li>BAG</li>
                 </ul>
             </div>
-        </div>
+          </div>
         <div class ="left-side">
             <ul class="big_menu">
-                <li><a href="#">SHOP</a>
+                <li class="menu-list"><a href="#">SHOP</a>
                     <ul class="small_menu">
                         <li><a href="#">Collaboration</a></li>
                         <li><a href="#">New Arrival</a></li>
@@ -40,26 +43,22 @@
                 <li><a href="#">NOTICE</a></li>
             </ul>
         </div>
-    
-	<div class="Logindiv">
-	<div class="LoginMain">
-		<h1 class="logo">Acidgram</h1>
-		<div class="container">
-			<input type="text" placeholder = "  Your ID" id="id" class="account">
-			<input type="text" placeholder = "  Your PassWord" id="id" class="account">
-			<button id="login"class="account" >login</button>
-			<div class="hr-sect">OR</div>
-			<button id="sgin"class="account" onclick="location.href='SignUp.html' ">Sign up</button>
-		</div>
-		<ul>
-             <li><a href="#">아이디/비밀번호찾기</a></li>
-             <li><a href="#">회원가입</a></li>
-        </ul>
-	</div>
-	    <div style="width:447px; height:600px; float:right;">
-	        <img src = "images/Loginimage.jpeg" height ="600px" width="450px">
-	    </div>
-	</div>
+        <div class="login">
+            <div class="account-container">
+            <section class="account-current">
+                <form action="" method="post">
+                  <h2 class="account-subtitle">로그인</h2>
+                  <input type="email" class="account-input" name="username" placeholder="이메일" required>
+                  <input type="password" class="account-input" name="password" placeholder="비밀번호" required>
+                  <a class="find-password-link"href="">비밀번호를 잊으셨나요?</a>
+                  <button type="submit" class="btn account-button">로그인</button>
+                  <div class="hr-sect">OR</div>
+                  <button type="button" onclick="location.href='SignUp.html'" class="btn account-button">회원가입</button>
+                </form>
+            </section>
+        </div>
+        </div>
     </div>
+    <script src="/script/Mainmenu.js"></script>
 </body>
 </html>

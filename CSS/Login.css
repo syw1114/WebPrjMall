@@ -1,110 +1,81 @@
 @charset "UTF-8";
-
-.Logindiv {
-	width: 900px;
-    height: 600px;
-    flex-direction: column;
-    border: 1px solid lightgrey;
-    border-radius: 5px;
- 	position: absolute;
- 	top: 50%;
- 	left: 50%;
- 	transform: translate(-50%, -50%);
- 	box-shadow: 1px 1px 3px 1px #dadce0;
+*{
+    box-sizing: border-box;
 }
-
-.LoginMain {
-  width: 450px;
-  height: 600px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  border: 1px solid lightgrey;
-  border-radius: 5px;
-  position: absolute;
-  box-shadow: 1px 1px 3px 1px #dadce0;
-  float:left;
-}
-
-.logo {
-    margin-top: 0px;
-    margin-bottom: 50px;
-}
-
-#login {
+input{
+    border: 1px solid rgb(198, 198, 198);
+    outline: none;
+    padding: 10px;
+    
     width: 100%;
-    background-color: white;
-    border : 1px solid lightgray;
-    color: black;
-    padding:5px;
-    margin-top:50px;
-    box-shadow: 1px 1px 3px 1px #dadce0;
 }
-#sgin{
-    width: 100%;
-    background-color: white;
-    border : 1px solid lightgray;
-    color: black;
-    padding:5px;
-    margin-top:8px;
-    box-shadow: 1px 1px 3px 1px #dadce0;
+input:focus{
+    border: 1px solid black;
 }
-
-.account {
+button{
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+.account-container{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+section{
+    margin-right: 10px;
+    width: 512px;
+}
+.account-subtitle{
+    margin-bottom: 20px;
+    border-bottom: 1px solid rgb(198, 198, 198);
+    padding-bottom: 20px;
+  
+    font-size:16px;
+ }
+.find-password-link{
+    display: flex;
+    justify-content: end;
+    margin-bottom: 120px;
+    color: rgb(127, 127, 127);
+}
+.account-content{
+    margin:20px 0px;
+}
+.account-input{
+    margin-bottom: 15px;
+}
+.account-button{
     display: block;
     margin-bottom: 10px;
     height : 50px;
-    width: 300px;
+    width: 100%;
     border: 1px solid lightgray;
     border-radius: 3px;
-    box-shadow: 1px 1px 3px 1px #dadce0 inset;
+    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.6);
 }
-
-#alert {
-    border-color: transparent;
+.account-new{
+    display: flex;
+    height: 500px;
 }
 .hr-sect {
-        display: flex;
-        flex-basis: 100%;
-        align-items: center;
-        color: rgba(0, 0, 0, 0.35);
-        font-size: 12px;
-        margin: 15px 0px;
+    display: flex;
+    flex-basis: 100%;
+    align-items: center;
+    color: rgba(0, 0, 0, 0.35);
+    font-size: 12px;
+    margin: 15px 0px;
 }
 .hr-sect::before,
 .hr-sect::after {
-        content: "";
-        flex-grow: 1;
-        background: rgba(0, 0, 0, 0.35);
-        height: 1px;
-        font-size: 0px;
-        line-height: 0px;
-        margin: 0px 16px;
-}
-
-.Logindiv ul{
-    width: 100%;
-    text-align: center;
-    margin-bottom: 60px;
-    margin-top : 20px;
-}
-.Logindiv li{
-    display: inline-block;
-    height: 12px; line-height: 12px;
-}
-.Logindiv li:last-child{
-    border-left: 1px solid #333;
-    padding-left: 10px; /* 테두리 안쪽 여백 */
-    margin-left: 4px; /* 테두리 바깥쪽 여백 */
-}
-.Logindiv a{
-    /* 글자관련은 보통 최종태그에 줘야 적용 */
-    color: #333; font-size: 12px;
-
-    /* 현재 위치에서 상대적 이동 */
-    position: relative; top: -2px;
-}
-.LoginMain ul {
-    margin-right: 50px;
+    content: "";
+    flex-grow: 1;
+    background: rgba(0, 0, 0, 0.35);
+    height: 1px;
+    font-size: 0px;
+    line-height: 0px;
+    margin: 0px 16px;
 }

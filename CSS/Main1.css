@@ -30,10 +30,16 @@ ul,li {
   float: right;
 }
 .left-side{
-	display: flex;
-	width: 200px;
-	background-color: rgba(0, 0, 0, 0);
+  position: absolute;
+  margin-top: 100px;
+  display: flex;
+  width: 200px;
+  background-color: rgba(0, 0, 0, 0);
   flex-direction: column;
+}
+.left-side a:hover{
+	text-decoration: underline;
+	font-weight: 700;
 }
 .left-side ul li{
   font-family: 'Source Sans Pro', sans-serif;
@@ -45,13 +51,8 @@ ul,li {
 .left-side .big_menu .small_menu li{
 	margin-bottom: 5px;
 }
-.left-side .big_menu li:hover .small_menu{
-	display: block;
-	position: relative;
-  
-}
 .big_menu li:not(.small_menu li){
-	margin-bottom: 20px;
+	margin-bottom: 10px;
 }
 .aaaa {
   display: flex;

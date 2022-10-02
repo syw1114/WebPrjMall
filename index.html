@@ -12,12 +12,12 @@
 	width: 100vw;
 	background-repeat : no-repeat;
 	background-size : cover; 
+    
     }
  </style>
-
  <script>
     document.write('<st'+'yle>');
-    document.write('body{ background-attachment:fixed; background-repeat: no-repeat;');//배경이미지고정/반복않음
+    document.write('body{ background-attachment:fixed; background-repeat: no-repeat; background-image: "images/메인이미지1.jpeg";');//배경이미지고정
     document.write('background-position: 0 0;}');//배경이미지 위치.
     
     document.write('</st'+'yle>');
@@ -60,7 +60,7 @@
           </div>
         <div class ="left-side">
             <ul class="big_menu">
-                <li><a href="#">SHOP</a>
+                <li class="menu-list"><a href="#">SHOP</a>
                     <ul class="small_menu">
                         <li><a href="#">Collaboration</a></li>
                         <li><a href="#">New Arrival</a></li>
@@ -79,5 +79,6 @@
             </ul>
         </div>
     </div>
+    <script src="/script/Mainmenu.js"></script>
 </body>
 </html>
