@@ -5,45 +5,18 @@
 <title>Insert title here</title>
  <link rel="preconnect" href="https://fonts.googleapis.com">
  <link rel="stylesheet" href="CSS/Main1.css">
- <link rel="stylesheet" href="images">
- <style>
+ <link rel="stylesheet" href="/images">
+<style>
     body{
     height: 100vh;
 	width: 100vw;
 	background-repeat : no-repeat;
-	background-size : cover; 
-    
+	background-size : cover;
+    background-attachment: fixed;
     }
- </style>
- <script>
-    document.write('<st'+'yle>');
-    document.write('body{ background-attachment:fixed; background-repeat: no-repeat; background-image: "images/메인이미지1.jpeg";');//배경이미지고정
-    document.write('background-position: 0 0;}');//배경이미지 위치.
-    
-    document.write('</st'+'yle>');
-    var cnj_bg=new Array()
-    cnj_bg[0]="images/메인이미지1.jpeg"
-    cnj_bg[1]="images/메인이미지2.jpeg"
-    cnj_bg[2]="images/메인이미지3.jpeg"
-    var speed=3000  // 3초
-    var processed=new Array()
-    for (i=0;i<cnj_bg.length;i++){
-        processed[i]=new Image()
-        processed[i].src=cnj_bg[i]
-    }
-    var inc=-1
-    function slideback(){
-        if (inc<cnj_bg.length-1)
-            inc++
-        else
-            inc=0
-    document.body.background=processed[inc].src
-    }
-        if (document.all||document.getElementById)
-        window.onload=new Function('setInterval("slideback()",speed)')
- </script>
+</style>
 </head>
-<body>	
+<body>
     <div id="container">
             <div class="aaaa">
             <div>
@@ -80,5 +53,6 @@
         </div>
     </div>
     <script src="/script/Mainmenu.js"></script>
+    <script type="text/javascript" src="/script/MainSlide.js"></script>
 </body>
 </html>
